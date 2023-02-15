@@ -1,0 +1,38 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80vw;
+  height: 40vh;
+  overflow: scroll;
+}
+
+.article {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #fff;
+  background-color: #22a39f;
+  width: 250px;
+  min-height: 250px;
+  max-height: 275px;
+  text-align: center;
+  margin: 10px;
+  transition: all 0.3s;
+}
+
+h3 {
+  flex-grow: 1;
+  padding: 0 5px 10px 5px;
+  border-bottom: 5px solid #00000049;
+}
+
+p {
+  flex-grow: 4;
+  margin: 0 5px;
+  overflow: scroll;
+}
+
+.article:hover {
+  background-color: #2dc0bb;
+}

@@ -1,0 +1,15 @@
+.mainImage {
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  background-color: beige;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 55vh;
+}

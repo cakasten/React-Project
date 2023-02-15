@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+
+  width: 75%;
+  height: 40vh;
+  margin-bottom: 10vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://picsum.photos/2000/1000");
+  background-size: cover;
+}
+
+.mainArticle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #fff;
+  background-color: #22a39f98;
+  width: 80%;
+  height: 300px;
+  max-height: 90%;
+  text-align: center;
+  margin: 10px;
+  transition: all 0.3s;
+}
